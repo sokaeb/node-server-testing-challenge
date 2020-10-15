@@ -38,5 +38,16 @@ describe('students-router.js', () => {
         });
     });
 
-
+    // describe('DELETE /:id', () => {
+    //     beforeEach( async () => { 
+    //         await db("students").truncate();
+    //       });
+    //     it('should remove the wizard with the given id', async () => {
+    //         const draco = await supertest(server)
+    //         .delete('/4')
+    //         .then(res => {
+    //             expect(draco.body.data.name).not.toBe("Draco Malfoy")
+    //         });
+    //     });
+    // });
 });
